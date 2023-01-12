@@ -30,41 +30,34 @@ header{
     height: 350px;
     text-align: center;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #479818 100%);
-    
 }
 header img{
     width: 150px;
     height: 80px;
-    margin-top: 60px;
+    margin-top: 10px;
     align-self: center;
     background-size: contain;
     border-radius: 8px;
-    border: 1px solid #479818;
-    
-}
-header img:hover{
-    cursor: pointer;
-    
 }
 .header--title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top: 40PX;
+    margin-top: 10PX;
     text-align: center;
     align-self: center;
 }
 .header--title-container h1 {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    line-height: 2.2rem;
+    line-height: 1.4rem;
     color: var(--just-white);
 }
 .header--title-container p {
     margin-top: 25px;
-    margin-bottom: 90px;
-    font-size: 1.4rem;
+    margin-top: 10px;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.4rem;
     color: #31B404;
@@ -74,13 +67,13 @@ header img:hover{
     left: calc(50% - 118px);
     top: 270px;
     display: block;
-    margin-top: 50px;
+    margin-top: 35px;
     padding: 8px;
     width: 300px;
     height: 70px;
     background-color: #5FB404;
     /*Sombra*/
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.40);
     border: 2px;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -102,7 +95,7 @@ main img{
     width: 300px;
     height: 250px;
     margin-top: 70px;
-    margin-left: 300px;
+    
 }
 .main-exchange-container{
     width: 100%;
@@ -129,17 +122,12 @@ main img{
     max-width: 500px;
     margin: 0 auto;
 }
-.main-currency-table .currency-table--title{
-    color: #088A29;
-    font-weight: bold;
-}
 .currency-table--container{
     width: 90%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
     margin: auto;
-    
 }
 .currency-table--container table{
     width: 100%;
@@ -164,19 +152,12 @@ main img{
 .currency-table--container .table__bottom-right{
     border-radius: 0 0 15px 0;
 }
+
 .main-currency-table2{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     margin: 0 auto;
-}
-.currency-table2--tittle{
-    margin-top: 15px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 2.3rem;
-    color: #0174DF;
-    text-align: center;
 }
 .currency-table2--container{
     width: 90%;
@@ -195,8 +176,9 @@ main img{
     font-weight: 500;
     line-height: 1.3rem;
     color: #757575;
-    background-color: #0489B1;
+    background-color: #2b4b;
 }
+
 .currency-table2--container .table2__top-left{
     border-radius: 15px 0 0 0;
 }
@@ -209,18 +191,9 @@ main img{
 .currency-table2--container .table2__bottom-right{
     border-radius: 0 0 15px 0;
 }
-.currency-table2--date{
-    width: 190px;
-    height: 50px;
-    margin-top: 20px;
-    margin: 0 auto;
-    background-color: #00BFFF;
-    border-radius: 8px;
-    text-align: center;
-}
 .currency-table2--date p{
     font-size: 1rem;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 /* Tercera Seccion */
 .main-product-detail{
@@ -231,10 +204,6 @@ main img{
     padding: 20px 10px;
     background-color: #242c2c;
 }
-.product-detail--img{
-    width: 200px;
-    height: 150px;
-}
 .product-detail--title{
     width: 90%;
     min-width: 288px;
@@ -242,7 +211,6 @@ main img{
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
-
 }
 .product-detail--title h2{
     margin-bottom: 20px;
@@ -251,7 +219,6 @@ main img{
     line-height: 2.6rem;
     color: #50873e;
 }
-
 .product-detail--title p{
     margin-bottom: 20px;
     font-size: 1.4rem;
@@ -259,10 +226,9 @@ main img{
     line-height: 1.8rem;
     color: #5FB404;
 }
-
 .product-detail--card{
     width: 90%;
-    min-width: 288px;
+    min-width: 288px;   
     max-width: 400px;
     min-height: 190px;
     margin: 15px auto;
@@ -270,7 +236,7 @@ main img{
     background-color: #2b4b48;
     color: #0B4C;
     border-radius: 5px;
-    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.16);
+    box-shadow: 0 4px  10px hsla(127, 97%, 49%, 0.16);
 }
 .product-detail--card .clock{
     display: inline-block;
@@ -408,7 +374,7 @@ main img{
     top: -15px;
     left: calc(50% - 90px);
     font-size: 1.2rem;
-    background-color: #0489B1;
+    background-color: #338b85;
     border-radius: 8px;
     color: #004;
 }
