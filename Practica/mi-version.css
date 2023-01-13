@@ -318,7 +318,7 @@ main img{
     color: #31B404;
     text-align: center;
     padding-top: 200px;
-    background-image: url("./fotoGrande.jpg");
+    background-image: url("./img/fotoGrande.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -352,6 +352,7 @@ main img{
 
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -362,6 +363,14 @@ main img{
     border-radius: 15px;
     box-shadow: 0 4px 8px rgb(89, 73, 30, 0.16);
 }
+/* crear un scroll */
+/* .plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+} */
 .plans-container--card:hover{
     cursor: pointer;
     box-shadow: 0 15px 25px rgba(244, 180, 4, 0.50);
